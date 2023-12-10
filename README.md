@@ -53,3 +53,31 @@ public double DegreeOfNumber(double firstNumber, double secondNumber)
             return result;
         }
   ```
+***CalculationAllFunctions** :
+```cs
+public  double CalculateAllFunctions()
+        {
+            double result = 0;
+            switch (this.Function)
+            {
+                case "+":
+                    result = Addition(this.FirstNumber, this.SecondNumber);
+                    break;
+                case "-":
+                    result = Subtraction(this.FirstNumber, this.SecondNumber);
+                    break;
+                case "/":
+                    result = Division(this.FirstNumber, this.SecondNumber);
+                    break;
+                case "*":
+                    result = Multiplication(this.FirstNumber, this.SecondNumber);
+                    break;
+                case "^":
+                    result = DegreeOfNumber(this.FirstNumber, this.SecondNumber);
+                    break;
+                default:
+                    result = 0;
+                    break;
+
+            }
+```
