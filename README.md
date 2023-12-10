@@ -16,6 +16,7 @@
   ```
 
   ### Methods
+  
   **Addition method**:
   ```cs
 private double Addition(double firstNumber, double secondNumber)
