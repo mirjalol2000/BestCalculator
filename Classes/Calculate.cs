@@ -21,8 +21,6 @@ namespace BestCalculator.Classes
 
             
         }
-
-        
         
         public  double CalculateAllFunctions()
         {

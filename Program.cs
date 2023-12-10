@@ -21,16 +21,10 @@ namespace BestCalculator
 
                 if (n == 1)
                 {
-
-
                     Console.Write("Name: ");
                     string name = Console.ReadLine();
                     while (true)
-                {
-
-                    
-
-
+                    {
                         Console.Write("FirstNumber : ");
                         double firstNumber = Convert.ToDouble(Console.ReadLine());
                         Console.Write("Enter the operation like +,-,*, / , % or ^:");
@@ -50,8 +44,6 @@ namespace BestCalculator
                         }
 
                     }
-                    
-
                 }
                 else if (n == 2)
                 {
