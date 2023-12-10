@@ -15,30 +15,30 @@
     list
   ```
 
-  ### Methods
   
-  **Addition method**:
+### Methods
+**Addition method** :
   ```cs
 private double Addition(double firstNumber, double secondNumber)
         {
             return firstNumber + secondNumber;
         }
   ```
-**Subtraction method**:
+**Subtraction method** :
   ```cs
 private double Subtraction(double firstNumber, double secondNumber)
         {
             return firstNumber - secondNumber;
         }
   ```
-**Multiplication method**:
+**Multiplication method** :
   ```cs
 private double Multiplication(double firstNumber, double secondNumber)
         {
             return firstNumber * secondNumber;
         }
   ```
-**Division method**:
+**Division method** :
   ```cs
 private double Division(double firstNumber, double secondNumber)
         {
